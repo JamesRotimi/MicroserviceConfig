@@ -9,8 +9,9 @@ my:
 
 
 db:
-  connections : "{connectionString: 'http://_ ', username: 'foo', password: 'pass'}"
+  connections : connection-string-here
   host: 127.0.0.1
   port: 1200
 
 management.endpoints.web.exposure.include: "*"
+spring.profiles.active: test
